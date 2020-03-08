@@ -1,0 +1,62 @@
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Fredoka One', cursive;
+}
+
+.container {
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+#newItem {
+  width: 75%;
+}
+
+#newItem, #addItem, #clear {
+  margin: 0;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+#itemsContainer {
+  width: 40%;
+  margin: 100px auto;
+}
+
+.clearContainer {
+  text-align: center;
+}
+
+.item {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h5 {
+  margin: 0;
+  font-size: 25px;
+}
+
+a {
+  margin: 0 10px;
+  color: black;
+  font-size: 25px;
+}
+
+a:hover {
+  color: gray;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
